@@ -18,27 +18,27 @@ class No0013RomanToIntegerTest {
     }
 
     @Test
-    void romanToInt1() {
+    void testRomanToInt1() {
         this.assertEquals("III", 3);
     }
 
     @Test
-    void romanToInt2() {
+    void testRomanToInt2() {
         this.assertEquals("IV", 4);
     }
 
     @Test
-    void romanToInt3() {
+    void testRomanToInt3() {
         this.assertEquals("IX", 9);
     }
 
     @Test
-    void romanToInt4() {
+    void testRomanToInt4() {
         this.assertEquals("LVIII", 58);
     }
 
     @Test
-    void romanToInt5() {
+    void testRomanToInt5() {
         this.assertEquals("MCMXCIV", 1994);
     }
 }
