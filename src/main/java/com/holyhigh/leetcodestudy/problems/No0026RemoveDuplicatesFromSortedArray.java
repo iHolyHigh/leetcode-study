@@ -9,15 +9,12 @@ package com.holyhigh.leetcodestudy.problems;
  */
 class No0026RemoveDuplicatesFromSortedArray {
     int removeDuplicates(int[] nums) {
-        if (nums == null || nums.length == 0) {
-            return 0;
-        }
-        if (nums.length == 1) {
-            return 1;
+        if (nums.length == 0 || nums.length == 1) {
+            return nums.length;
         }
         int result = 1;
         int base = nums[0];
-        for (int i = 1, j = 1; i < nums.length; i++) {
+        for (int i = 1; i < nums.length; i++) {
             if (nums[i] != base) {
                 nums[result] = nums[i];
                 base = nums[i];
