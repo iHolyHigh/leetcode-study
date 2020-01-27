@@ -4,7 +4,7 @@ import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
 
 /**
- * No0026-No0026RemoveDuplicatesFromSortedArrayTest 测试
+ * No0026-删除排序数组中的重复项 测试
  *
  * @author holyhigh
  * @version 0.0.1
